@@ -21,6 +21,7 @@ func Hello(name string, language string) string {
 	return greetingPrefix(language) + name
 }
 
+// Adding a named return value
 func greetingPrefix(language string) (prefix string) {
 	switch language {
 	case french:
